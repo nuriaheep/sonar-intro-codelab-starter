@@ -4,7 +4,9 @@
   "description": "Demo project for Sonar Codelab",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "----": "-------------------------",
+    "ci:test": "jest --coverage --watchAll=false"
   },
   "repository": {
     "type": "git",
