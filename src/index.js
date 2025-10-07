@@ -12,10 +12,9 @@ const animalsData = [
 ];
 
 export function sortAnimals() {
-  //This will trigger a Bug warning
+
   animalsData.sort();
 
-  //This will trigger a Security Hotspot warning
   Math.floor(2 * Math.random());
 
   if (animalsData.length % 2 == 1) {
